@@ -1,0 +1,125 @@
+body{
+	font-family: verdana;
+	font-size: 12px;
+
+}
+
+p{
+	text-transform: uppercase;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.holder{
+	width: 60%;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	background: url(images/background.png);
+	overflow: hidden;
+}
+
+.holder .header{
+	text-transform: uppercase;
+	text-align: center;
+	border: solid red;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 50px
+}
+.holder p{
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.holder .grid1{
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-right: 3px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.grid1 img{
+	border-radius: 20px;
+	height: 60%;
+	width: 100%;
+	text-align: center;
+
+}
+
+.grid1 p{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-style: bold;
+
+}
+
+.grid1 br{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-style: bold;
+}
+
+.holder .grid2{
+	width: 60%;
+	height: auto;
+	float: right;	
+	margin: 0 auto;
+	text-align: left;
+	background: gray;
+	color: #ffffff;
+	margin-left: 3px;
+	margin-top: 50px;
+	padding:10px;
+}
+.grid2 section{
+	height: auto;
+	width: auto;
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	
+	
+}
+.grid2 section p{
+	font-size: normal;
+	text-transform: none;
+	text-align: left;
+	text-decoration: justify;
+
+	}
+
+.media{
+	height: auto;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	}	
+
+.media img{
+	height: 30px;
+	width: 30px;
+}
+.media li{
+		display: inline;
+}
+
+.footer{
+	width: 60%;
+	height: auto;
+	padding: 30px;
+	background: gray;
+	margin: auto;
+	text-align: center;
+	color: #ffffff;
+}
